@@ -36,6 +36,25 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    ['nuxt-i18n', {
+      lazy:true,
+      locales: [
+        {
+          name: 'Hrvatski',
+          code: 'hr',
+          iso: 'hr-HR',
+          file: 'hr-HR.js'
+        },
+        {
+          name: 'English',
+          code: 'en',
+          iso: 'en-US',
+          file: 'en-US.js'
+        },
+      ],
+      langDir: 'locales/',
+      defaultLocale: 'en',
+    }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

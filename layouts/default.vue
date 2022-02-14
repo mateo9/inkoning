@@ -12106,7 +12106,7 @@ body.show-mnav .main-navigation .menu-toggle i.icon-chevron-right {
 }
 
 .opportunities .startups {
-  background-image: url("../img/ttt.jpg");
+  background-image: url("../img/ui.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -12118,7 +12118,13 @@ body.show-mnav .main-navigation .menu-toggle i.icon-chevron-right {
 }
 
 .opportunities .thirdparties {
-  background-image: url("../img/ttt.jpg");
+  background-image: url("../img/mi.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.opportunities .celik {
+  background-image: url("../img/celik.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -12140,8 +12146,31 @@ body.show-mnav .main-navigation .menu-toggle i.icon-chevron-right {
 }
 
 .opportunities .container.wide .panel-content p {
-  font-size: 1.2em;
+  font-size: 19.2px;
   font-weight: 200;
+}
+
+.opportunities .container.wide .panel-content li {
+  font-size: 15.2px;
+  font-weight: 200;
+}
+
+ul.ul-two {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+ul.ul-one {
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+
+@media only screen and (min-width: 940px) {
+  .custom-margin {
+    margin-top: 25px;
+  }
 }
 
 .opportunities .image-left {

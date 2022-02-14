@@ -25,37 +25,25 @@
                 id="menu-item-23"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-23"
               >
-                <a href="http://chattanoogarenaissancefund.com/">Home</a>
+                <a href="/">{{ $t("home") }}</a>
               </li>
               <li
                 id="menu-item-24"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"
               >
-                <a href="https://chattanoogarenaissancefund.com/about-us/"
-                  >About Us</a
-                >
+                <a href="/about-us">{{ $t("about") }}</a>
               </li>
               <li
                 id="menu-item-26"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
               >
-                <a href="https://chattanoogarenaissancefund.com/investments/"
-                  >Investments</a
-                >
+                <a href="/activities">{{ $t("active") }}</a>
               </li>
               <li
                 id="menu-item-27"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"
               >
-                <a href="https://chattanoogarenaissancefund.com/opportunities/"
-                  >Opportunities</a
-                >
-              </li>
-              <li
-                id="menu-item-233"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"
-              >
-                <a href="https://chattanoogarenaissancefund.com/blog/">News</a>
+                <a href="/contact/">{{ $t("contact") }}</a>
               </li>
               <li
                 id="menu-item-25"
@@ -64,6 +52,18 @@
                 <a href="https://chattanoogarenaissancefund.com/contact-us/"
                   >Contact Us</a
                 >
+              </li>
+              <li
+                id="menu-item-23"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"
+              >
+                <nuxt-link :to="switchLocalePath('en')">EN</nuxt-link>
+              </li>
+              <li
+                id="menu-item-23"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"
+              >
+                <nuxt-link :to="switchLocalePath('hr')">HR</nuxt-link>
               </li>
             </ul>
           </div>
@@ -81,6 +81,9 @@
 </template>
 
 <script>
+import Vue from "vue";
+import VueI18n from "vue-i18n";
+
 export default {
   name: "Header",
   data() {
@@ -88,10 +91,55 @@ export default {
       pageName: "Home",
     };
   },
+  watch: {
+    $route(to, from) {
+      if (this.$route.path.includes("/about-us"))
+        this.pageName = this.$t("about");
+      if (this.$route.path.includes("/activities"))
+        this.pageName = this.$t("activities");
+    },
+  },
   mounted() {
-    if (this.$route.path == "/about-us") {
-      this.pageName = "About Us";
-    }
+    this.toggle();
+    if (this.$route.path.includes("/about-us"))
+      this.pageName = this.$t("about");
+    if (this.$route.path.includes("/activities"))
+      this.pageName = this.$t("activities");
+  },
+  methods: {
+    toggle() {
+      (function () {
+        var container, button, menu, bd;
+
+        container = document.getElementById("site-navigation");
+        bd = document.getElementsByTagName("body")[0];
+        if (!container) return;
+
+        button = container.getElementsByTagName("h1")[0];
+        if ("undefined" === typeof button) return;
+
+        menu = container.getElementsByTagName("ul")[0];
+
+        // Hide menu toggle button if menu is empty and return early.
+        if ("undefined" === typeof menu) {
+          button.style.display = "none";
+          return;
+        }
+
+        if (-1 === menu.className.indexOf("nav-menu"))
+          menu.className += " nav-menu";
+
+        button.onclick = function () {
+          if (-1 !== container.className.indexOf("toggled")) {
+            container.className = container.className.replace(" toggled", "");
+            bd.className = bd.className.replace(" show-mnav", "");
+          } else {
+            container.className += " toggled";
+            bd.className += " show-mnav";
+          }
+        };
+      })();
+    },
   },
 };
 </script>

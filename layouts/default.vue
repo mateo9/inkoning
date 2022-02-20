@@ -12381,6 +12381,12 @@ div.panel-action span {
   }
 }
 
+@media only screen and (min-width: 720px) {
+  .container.wide {
+    width: 100vw !important;
+  }
+}
+
 .case-study.panel.first .half-boxes:after {
   background-color: transparent;
 }
@@ -13287,8 +13293,8 @@ main {
 
 .main-navigation .menu-toggle i.icon-align-justify {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: -15%;
+  left: 57%;
   margin-top: -15px;
   margin-left: -9px;
   font-size: 20px;
@@ -14468,7 +14474,6 @@ form li.section h3 {
   width: auto;
   padding: 12px 1% 0 1%;
   margin: 0 0 3px 0;
-  font-size: 110%;
   font-weight: normal;
   line-height: 135%;
   border-top: 1px dotted #cccccc;

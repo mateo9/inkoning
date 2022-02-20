@@ -33,5 +33,6 @@ export default {
   am22: 'PREPARATION OF WORKSHOP DOCUMENTATION',
   am23: 'PREPARTION OF MANUFACTURING RECORD BOOK',
   am24: '8. DESIGN, PRODUCTION AND INSTALLATION OF STEEL CONSTRUCTIONS AND LIGHTING POLES',
-  am25: '(in cooperation with partners)'
+  am25: '(in cooperation with partners)',
+  c1: 'Croatia'
 }

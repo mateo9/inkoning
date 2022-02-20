@@ -1,6 +1,6 @@
 <template>
   <div class="opportunities">
-    <div class="container wide lighttan">
+    <div id="mobile-id" class="container wide lighttan">
       <div
         class="investors image-left columns five"
         style="background-image: url ('../img/ttt.jpg')"
@@ -19,7 +19,7 @@
         </p>
       </div>
     </div>
-    <div class="container wide tan">
+    <div id="mobile-id" class="container wide tan">
       <div
         class="startups image-left columns five"
         style="background-image: ('../img/ui.jpg')"
@@ -34,11 +34,8 @@
         <br />
         <h3 class="sans-serif">{{ $t("am11") }}</h3>
       </div>
-      <a class="panel-action lighttan" href="/investors/"
-        ><span>Learn More</span></a
-      >
     </div>
-    <div class="container wide lighttan">
+    <div id="mobile-id" class="container wide lighttan">
       <div
         class="thirdparties image-left columns five"
         style="background-image: ('../img/ttt.jpg')"
@@ -58,7 +55,7 @@
         </ul>
       </div>
     </div>
-    <div class="container wide lighttan">
+    <div id="mobile-id" class="container wide lighttan">
       <div
         class="celik image-left columns five"
         style="background-image: ('../img/ttt.jpg')"
@@ -76,3 +73,11 @@
     </div>
   </div>
 </template>
+
+<style>
+@media only screen and (max-width: 720px) {
+  #mobile-id {
+    width: 100vw !important;
+  }
+}
+</style>

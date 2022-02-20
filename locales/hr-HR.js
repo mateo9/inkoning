@@ -33,5 +33,6 @@ export default {
     am22: 'IZRADA RADIONIČKE DOKUMENTACIJE',
     am23: 'IZRADA ATESTNE DOKUMENTACIJE',
     am24: '8. PROJEKTIRANJE, PROIZVODNJA I MONTAŽA ČELIČNIH KONSTRUKCIJA I RASVJETNIH STUPOVA ',
-    am25: '(u suradnji sa partnerima)'
+    am25: '(u suradnji sa partnerima)',
+    c1: 'Hrvatska'
 }

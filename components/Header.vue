@@ -72,7 +72,7 @@
       </div>
     </div>
 
-    <div class="container wide">
+    <div id="mobile-id" class="container wide">
       <div class="row page-title">
         <h1>{{ pageName }}</h1>
       </div>
@@ -97,6 +97,8 @@ export default {
         this.pageName = this.$t("about");
       if (this.$route.path.includes("/activities"))
         this.pageName = this.$t("activities");
+      if (this.$route.path.includes("/contact"))
+        this.pageName = this.$t("contact");
     },
   },
   mounted() {
@@ -105,6 +107,8 @@ export default {
       this.pageName = this.$t("about");
     if (this.$route.path.includes("/activities"))
       this.pageName = this.$t("activities");
+    if (this.$route.path.includes("/contact"))
+      this.pageName = this.$t("contact");
   },
   methods: {
     toggle() {
@@ -143,3 +147,35 @@ export default {
   },
 };
 </script>
+
+<style>
+@media only screen and (max-width: 720px) {
+  #mobile-id {
+    width: 100vw !important;
+  }
+
+  h1 {
+    font-size: 70px !important;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .page-title {
+    max-width: 100vw !important;
+  }
+
+  .panel-content {
+    padding: 0 5%;
+  }
+
+  .opportunities .image-left {
+    width: 100% !important;
+  }
+
+  .opportunities .image-left {
+    margin-left: 0px !important;
+  }
+}
+</style>

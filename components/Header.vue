@@ -49,7 +49,9 @@
                 id="menu-item-25"
                 class="nav-contact menu-item menu-item-type-post_type menu-item-object-page menu-item-25"
               >
-                <a href="https://chattanoogarenaissancefund.com/contact-us/"
+                <a
+                  href="mailto:
+          inkonong@inkoning.hr"
                   >Contact Us</a
                 >
               </li>

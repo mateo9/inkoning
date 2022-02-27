@@ -1,8 +1,5 @@
 <template>
   <div class="panel panel-1 tan">
-    <div class="panel-action panel-content left-panel">
-      <span>Inkoning</span>
-    </div>
     <div class="container">
       <div class="historical-context content-right">
         <p>

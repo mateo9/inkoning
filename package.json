@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "start": "nuxt generate",
+    "heroku-postbuild": "nuxt generate"
   },
   "dependencies": {
     "core-js": "^3.19.3",

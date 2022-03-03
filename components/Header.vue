@@ -93,6 +93,7 @@ export default {
   },
   watch: {
     $route(to, from) {
+      if (this.$route.path == "/") this.pageName = this.$t("about");
       if (this.$route.path.includes("/about-us"))
         this.pageName = this.$t("about");
       if (this.$route.path.includes("/activities"))

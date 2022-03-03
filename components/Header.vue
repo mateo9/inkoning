@@ -25,25 +25,23 @@
                 id="menu-item-23"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-23"
               >
-                <a href="/">{{ $t("home") }}</a>
-              </li>
-              <li
-                id="menu-item-24"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"
-              >
-                <a href="/about-us">{{ $t("about") }}</a>
+                <nuxt-link :to="localePath('/')">{{ $t("home") }}</nuxt-link>
               </li>
               <li
                 id="menu-item-26"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
               >
-                <a href="/activities">{{ $t("active") }}</a>
+                <nuxt-link :to="localePath('/activities')">{{
+                  $t("active")
+                }}</nuxt-link>
               </li>
               <li
                 id="menu-item-27"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"
               >
-                <a href="/contact/">{{ $t("contact") }}</a>
+                <nuxt-link :to="localePath('/contact')">{{
+                  $t("contact")
+                }}</nuxt-link>
               </li>
               <li
                 id="menu-item-25"
@@ -52,7 +50,7 @@
                 <a
                   href="mailto:
           inkonong@inkoning.hr"
-                  >Contact Us</a
+                  >{{ $t("contactus") }}</a
                 >
               </li>
               <li

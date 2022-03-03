@@ -4,7 +4,7 @@ export default {
     about: 'O Nama',
     active: 'Djelatnosti',
     contact: 'Kontakt',
-    au1: 'Inkoning d.o.o. je mlada tvrtka osnovana 2020-te godine ali imamo veliko iskustvo sa pružanjem usluga malim, srednjim i velikim tvrtkama koje proizvode i montiraju čelične proizvode i konstrukcije. Usluge koje nudimo su u području  kontrole, NDT ispitivanja, izrade tehničke dokumentacije, zavarivanja i konzultanstskih usluga kod certificiranja organizacija prema normama EN 1090, EN 3834 i EN 15085. ',
+    au1: 'Inkoning d.o.o. je tvrtka sa velikim iskustvom pružanjem usluga malim, srednjim i velikim tvrtkama koje proizvode i montiraju čelične proizvode i konstrukcije. Usluge koje nudimo su u području  kontrole, NDT ispitivanja, izrade tehničke dokumentacije, zavarivanja i konzultanstskih usluga kod certificiranja organizacija prema normama EN 1090, EN 3834 i EN 15085. ',
     au2: 'Također nudimo konzultanstske usluge kod pripreme organizacija svih profila kod certifikacije prema normama ISO 9001, ISO 14001 i ISO 45001.',
     au3: 'Inkoning d.o.o. prije svega teži da bude prepoznat kao pouzdan i fleksibilan partner, te kroz stalna usavršavanja i prilagođavanja, teži zadovoljiti najviše kriterije i zahtjeve kupaca.',
     au4: 'Osim toga u suradnji sa partnerima nudimo kompletna rješenja od projektiranja, proizvodnje i montaže čeličnih proizvoda i rasvjetnih stupova prema europskim normama.',
@@ -34,5 +34,6 @@ export default {
     am23: 'IZRADA ATESTNE DOKUMENTACIJE',
     am24: '8. PROJEKTIRANJE, PROIZVODNJA I MONTAŽA ČELIČNIH KONSTRUKCIJA I RASVJETNIH STUPOVA ',
     am25: '(u suradnji sa partnerima)',
-    c1: 'Hrvatska'
+    c1: 'Hrvatska',
+    contactus: 'Kontaktirajte Nas'
 }

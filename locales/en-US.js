@@ -4,7 +4,7 @@ export default {
   about: 'About Us',
   active: 'Activities',
   contact: 'Contact',
-  au1: 'Inkoning d.o.o. is a young company founded in 2020 but we have extensive experience in providing services to small, medium and large companies that manufacture and assemble steel products and structures. The services we offer are in the field of control, NDT testing, preparation of technical documentation, welding and consulting services for certification of organizations according to EN 1090, EN 3834 and EN 15085.',
+  au1: 'Inkoning d.o.o. is a company with extensive experience in providing services to small, medium and large companies that manufacture and assemble steel products and structures. The services we offer are in the field of control, NDT testing, preparation of technical documentation, welding and consulting services for certification of organizations according to EN 1090, EN 3834 and EN 15085.',
   au2: 'We also offer consulting services in the preparation of organizations of all profiles for certification according to ISO 9001, ISO 14001 and ISO 45001.',
   au3: 'Inkoning d.o.o. above all, it strives to be recognized as a reliable and flexible partner, and through continuous improvement and customization, it strives to meet the highest criteria and customer requirements.',
   au4: 'n addition, in cooperation with partners, we offer complete solutions from the design, manufacture and installation of steel products and lighting poles according to European standards.',
@@ -34,5 +34,6 @@ export default {
   am23: 'PREPARTION OF MANUFACTURING RECORD BOOK',
   am24: '8. DESIGN, PRODUCTION AND INSTALLATION OF STEEL CONSTRUCTIONS AND LIGHTING POLES',
   am25: '(in cooperation with partners)',
-  c1: 'Croatia'
+  c1: 'Croatia',
+  contactus: 'Contact Us'
 }

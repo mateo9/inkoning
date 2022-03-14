@@ -15,6 +15,9 @@
           class="main-navigation twelve columns"
           role="navigation"
         >
+          <a href="/" class="logo sans-serif"
+            ><img src="../img/logo.png" style="max-width: 100px" id="logo-ink"
+          /></a>
           <h1 class="menu-toggle"><i class="icon-align-justify"></i></h1>
           <div class="screen-reader-text skip-link">
             <a href="#content" title="Skip to content">Skip to content</a>
@@ -93,7 +96,13 @@ export default {
   },
   watch: {
     $route(to, from) {
-      if (this.$route.path == "/") this.pageName = this.$t("about");
+      console.log(this.$route.path);
+      if (this.$route.path == "/") {
+        this.pageName = this.$t("about");
+      }
+      if (this.$route.path == "/hr") {
+        this.pageName = this.$t("about");
+      }
       if (this.$route.path.includes("/about-us"))
         this.pageName = this.$t("about");
       if (this.$route.path.includes("/activities"))
@@ -104,6 +113,12 @@ export default {
   },
   mounted() {
     this.toggle();
+    if (this.$route.path == "/") {
+      this.pageName = this.$t("about");
+    }
+    if (this.$route.path == "/hr") {
+      this.pageName = this.$t("about");
+    }
     if (this.$route.path.includes("/about-us"))
       this.pageName = this.$t("about");
     if (this.$route.path.includes("/activities"))
@@ -177,6 +192,10 @@ export default {
 
   .opportunities .image-left {
     margin-left: 0px !important;
+  }
+
+  #logo-ink {
+    max-width: 60px !important;
   }
 }
 </style>

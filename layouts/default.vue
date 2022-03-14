@@ -11265,7 +11265,7 @@ p {
   -ms-transition: top 0;
   -o-transition: top 0;
   transition: top 0;
-  background-image: url(../img/background.jpeg);
+  background-image: url(../img/home_img.jpg);
 }
 
 .site-header .bg-image:after {

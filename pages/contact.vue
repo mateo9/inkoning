@@ -9,12 +9,13 @@
       >
         <div class="flex-container">
           <p class="bold">INKONING d.o.o.</p>
-          <p>Sv. Mateja 10010 Zagreb</p>
+          <p>Sv. Mateja 110</p>
+          <p>10010 Zagreb</p>
           <p>{{ $t("c1") }}</p>
-          <p>{{ $t("mob") }}</p>
           <p>www.inkoning.hr</p>
         </div>
         <div class="flex-container">
+          <p>{{ $t("mob") }}</p>
           <p>OIB: 16571604360</p>
           <p>IBAN: HR8524020061101001363</p>
           <div class="mail">

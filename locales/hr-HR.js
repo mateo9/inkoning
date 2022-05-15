@@ -11,7 +11,7 @@ export default {
     activities: 'Djelatnosti',
     am1: 'ISPITIVANJE ČELIČNIH PROIZVODA I ČELIČNIH KONSTRUKCIJA',
     am2: '- NDT (NERAZORNA ISPITIVANJA)',
-    am3: 'VT (vizualno ispitivanje)',
+    am3: 'VT (vizualno ispitivanje) ',
     am4: 'MT (magnetsko ispitivanje)',
     am5: 'UT (ultrazvučno ispitivanje)',
     am6: 'Mjerenje debljine boje',

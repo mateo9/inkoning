@@ -12169,7 +12169,11 @@ ul.ul-one {
 
 @media only screen and (min-width: 940px) {
   .custom-margin {
-    margin-top: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .panel-content.first-one {
+    margin-top: 15px !important;
   }
 }
 

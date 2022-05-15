@@ -5,7 +5,7 @@
         class="investors image-left columns five"
         style="background-image: url ('../img/ttt.jpg')"
       ></div>
-      <div class="nine columns panel-content">
+      <div class="nine columns panel-content first-one">
         <h3 class="sans-serif">{{ $t("am1") }}</h3>
         <p class="custom-margin">{{ $t("am2") }}</p>
         <ul class="ul-two">

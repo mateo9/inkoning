@@ -9,9 +9,9 @@
       >
         <div class="flex-container">
           <p class="bold">INKONING d.o.o.</p>
-          <p>Sv. Mateja 110 Zagreb</p>
+          <p>Sv. Mateja 10010 Zagreb</p>
           <p>{{ $t("c1") }}</p>
-          <p>mob.: 095 2410 489</p>
+          <p>{{ $t("mob") }}</p>
           <p>www.inkoning.hr</p>
         </div>
         <div class="flex-container">
@@ -24,7 +24,6 @@
               >inkonong@inkoning.hr</a
             >
           </div>
-          <p>mob.: 095 2410 489</p>
           <div class="mail">
             <a href="mailto: nikola.sulic@inkoning.hr"
               >nikola.sulic@inkoning.hr</a

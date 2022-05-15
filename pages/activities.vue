@@ -44,7 +44,6 @@
         <h3 class="sans-serif">{{ $t("am12") }}</h3>
         <br />
         <h3 class="sans-serif">{{ $t("am13") }}</h3>
-        <p>{{ $t("am14") }}</p>
         <ul class="ul-two">
           <li>{{ $t("am15") }}</li>
           <li>{{ $t("am16") }}</li>
@@ -68,7 +67,6 @@
         </ul>
         <br />
         <h3 class="sans-serif">{{ $t("am24") }}</h3>
-        <p>{{ $t("am25") }}</p>
       </div>
     </div>
   </div>

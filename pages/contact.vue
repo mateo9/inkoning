@@ -21,8 +21,8 @@
           <div class="mail">
             <a
               href="mailto:
-          inkonong@inkoning.hr"
-              >inkonong@inkoning.hr</a
+          inkoning@inkoning.hr"
+              >inkoning@inkoning.hr</a
             >
           </div>
           <div class="mail">
